@@ -24,15 +24,20 @@ The dataset used for this project is shared in the links section of readme
 
 ## Feature Selection 
 - Heatmaps were used to understand the correlation between features available
+
 ![Heatmap_Features](Screenshots/Heatmap_Features.png)
+
 - ExtraTreesRegressor was also used to identify important features 
+
 ![ExtraTreesRegressor_Features](Screenshots/ExtraTreesRegressor_Features.png)
 
 ## Performed Regression using Random Forests 
 - Monitored RSME score while performing regression with random forests 
 - 80% of data was kept for training and 20% for testing
 - Training Results were 95% on train data and 79% on test data.
+
 ![TrainingResults](Screenshots/TrainingResults.png)
+
 - R2 Score On Results obtained was 0.7964
 
 ## Hyperparameter Tuning 
@@ -42,7 +47,11 @@ The dataset used for this project is shared in the links section of readme
     3. Maximum number of levels in tree(max_depth)
     4. Minimum number of samples required to split a node(min_samples_split)
     5. Minimum number of samples required at each leaf node(min_samples_leaf)
+
 ![HyperparameterTuningResults](Screenshots/HyperparameterTuningResults.png)
+
+# Flowchart Of Methodology 
+![Flowchart](Screenshots/Flowchart.png)
 
 # Links 
 - Dataset Link : https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh/
